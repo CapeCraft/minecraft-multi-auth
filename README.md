@@ -8,19 +8,19 @@ Use the url with what ever services, currently support here:
 
 eg;
 
-``http://minecraft-multi-auth.james090500.workers.dev/mojang/minehut`` would check mojang 1st then Minehut 2nd.
+``https://mcauth.james090500.com/mojang/minehut/mojang/minehut`` would check mojang 1st then Minehut 2nd.
 
 Velocity
 ```
--Dmojang.sessionserver=http://minecraft-multi-auth.james090500.workers.dev/mojang/minehut
+-Dmojang.sessionserver=https://mcauth.james090500.com/mojang/minehut/mojang/minehut
 ```
 
 Waterfall
 ```
--Dwaterfall.auth.url="<http://minecraft-multi-auth.james090500.workers.dev/mojang/minehut?username=%s&serverId=%s%s>"
+-Dwaterfall.auth.url="<https://mcauth.james090500.com/mojang/minehut/mojang/minehut?username=%s&serverId=%s%s>"
 ```
 
 Paper
 ```
--Dminecraft.api.auth.host=https://authserver.mojang.com/ -Dminecraft.api.account.host=https://api.mojang.com/ -Dminecraft.api.services.host=https://api.minecraftservices.com/ -Dminecraft.api.session.host=http://minecraft-multi-auth.james090500.workers.dev/mojang/minehut
+-Dminecraft.api.auth.host=https://authserver.mojang.com/ -Dminecraft.api.account.host=https://api.mojang.com/ -Dminecraft.api.services.host=https://api.minecraftservices.com/ -Dminecraft.api.session.host=https://mcauth.james090500.com/mojang/minehut/mojang/minehut
 ```

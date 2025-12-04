@@ -1,3 +1,5 @@
+# Deprecated 2025 in favour of https://github.com/capecraft/minegate
+
 # Minecraft Multi Auth
 
 Have multiple auth servers tested on login
